@@ -35,7 +35,7 @@ page int
 
     $editor_address = 'editor@example.com';　← 編集者のメールアドレス
     $production_address = 'production@example.com';　← 制作側のメールアドレス
-    $magazine = '某マガジン';
+    $magazine = '某マガジン';　← 雑誌名または書籍名
     
     $mail_address = 'notification@?????.sakura.ne.jp';　← さくらのレンタルサーバに登録したメールアドレス　
     $mail_password = 'yyyyyyyyyyyyy';　←　メールアドレスと一緒に設定したパスワード
