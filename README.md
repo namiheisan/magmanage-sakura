@@ -2,7 +2,7 @@
 雑誌や書籍の制作管理するシステム（magmanage）のさくらレンタルサーバ版です。  
 次の手順でデータベースを作成し、さくらレンタルサーバ内に任意のディレクトリを作成し、このソースコードと[PHPMailer](https://github.com/Synchro/PHPMailer.git)を配置してconfig.phpを書き換えれば動作します。 
 
-テーブル作成のSQL文。さくらのレンタルサーバの管理画面にある「phpMyAdmin」からデータベースを指定して実行します。
+テーブル作成のSQL文。さくらのレンタルサーバの管理画面にある「phpMyAdmin」からデータベース（magmanage_db）を指定して実行します。
 ```
 create table article (
 pkey int auto_increment primary key,
